@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="msvalidate.01" content=""> <!--Bing Webmaster-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/user.js"></script>
+	<script src="js/adsbygoogle.js"></script>
+
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-74760403-3"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments)};
+		gtag('js', new Date());
+
+		gtag('config', 'UA-74760403-3');
+	</script>
+
+	<title>Login Page</title>
+	<meta name="description" content="Login Page">
+
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" value="Login Page">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Login Page">
+	<meta property="og:image" content="http://awansaham.com/img/cover-photos.jpeg">
+	<meta property="og:description" content="This page is dedicated for logging in to the revolutionize awansaham system.">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #D4FFFF;">
+    <a class="navbar-brand" href="/"><img src="/image/cloud.png" width="45">CloudSaham</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+        <li class="nav-item active">
+          <a class="nav-link" style="color: #282828;" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #282828;" href="/BuyScanner">Buy Scanner</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #282828;" href="/SellScanner">Sell Scanner</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #282828;" href="/Subscribe">Subscribe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #282828;" href="/Login">Log in</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+	<center>
+		<div class="container">
+			<a href="/"><img width="85px;" class="img-fluid" src="/image/cloud.png" alt="Awan Saham Logo"></a>
+			<div id="login">
+				<div class="user-login">
+					<p class="text-center">Sign in with your email</p>
+					<div class="form-group">
+						<input type="text" class="form-control login" id="username-input-login" placeholder="Username" name="username" style="width: 50%;">
+					</div>
+					<div class="form-group">
+						<input type="password" class="form-control login" id="password-input-login" placeholder="Password" name="password" style="width: 50%;">
+					</div>
+					<div class="form-group" style="margin-top: 10px; text-align:center;">
+						<input class="btn btn-default btn-login" type="submit" value="Login">
+						<i class="fa fa-spinner fa-spin fa-2x fa-login" style="display: none;"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</center>
+</body>
+</html>
